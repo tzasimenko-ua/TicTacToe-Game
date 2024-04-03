@@ -51,4 +51,10 @@ def print_game_rules():
 
 def main():
     # Main function of the game, controls the main game process.
-    print_game_rules()            
+    print_game_rules()
+
+    # Getting the name and symbol from player 1.
+    player1_name = input("Player 1, enter your name: ")
+    player1_symbol = input(f"{player1_name}, choose your symbol (X or O): ").upper()
+    while player1_symbol not in ["X", "O"]:
+        player1_symbol = input("Invalid input. Please choose X or O: ").upper()            
