@@ -38,3 +38,13 @@ class Player:
         # Constructor of the Player class initializes the name and symbol of the player.
         self.name = name
         self.symbol = symbol
+
+def print_game_rules():
+    # The print_game_rules function prints the game rules to the screen.
+    print("Welcome to Tic-Tac-Toe!")
+    print("Here are the rules:")
+    print("1. The game is played on a 3x3 grid.")
+    print("2. Players take turns placing their symbol (X or O) on an empty square.")
+    print("3. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins.")
+    print("4. If all squares are filled without any player achieving a winning combination, the game is a tie.")
+    print("Let's begin!")        
