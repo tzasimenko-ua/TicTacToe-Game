@@ -57,4 +57,11 @@ def main():
     player1_name = input("Player 1, enter your name: ")
     player1_symbol = input(f"{player1_name}, choose your symbol (X or O): ").upper()
     while player1_symbol not in ["X", "O"]:
-        player1_symbol = input("Invalid input. Please choose X or O: ").upper()            
+        player1_symbol = input("Invalid input. Please choose X or O: ").upper()
+
+    # Getting the name and symbol from player 2.
+    player2_name = input("Player 2, enter your name: ")
+    player2_symbol = "X" if player1_symbol == "O" else "O"
+    player1 = Player(player1_name, player1_symbol)
+    player2 = Player(player2_name, player2_symbol)
+    game = TicTacToe()                
