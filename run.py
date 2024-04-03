@@ -32,3 +32,9 @@ def check_winner(self, player):
             return True
 
         return False
+
+class Player:
+    def __init__(self, name, symbol):
+        # Constructor of the Player class initializes the name and symbol of the player.
+        self.name = name
+        self.symbol = symbol
