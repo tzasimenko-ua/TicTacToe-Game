@@ -15,7 +15,8 @@ def display_board(self):
         print("\n".join([" | ".join(row) for row in self.board]))
 
 def check_winner(self, player):
-        # The check_winner method checks for a winner by examining rows, columns, and diagonals.
+    # The check_winner method checks for a winner by examining rows, columns, and diagonals.
+
         for row in self.board:
             if all(cell == player.symbol for cell in row):
                 return True
