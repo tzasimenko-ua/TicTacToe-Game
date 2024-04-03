@@ -64,4 +64,10 @@ def main():
     player2_symbol = "X" if player1_symbol == "O" else "O"
     player1 = Player(player1_name, player1_symbol)
     player2 = Player(player2_name, player2_symbol)
-    game = TicTacToe()                
+    game = TicTacToe()
+
+    current_player = player1
+    while True:
+        # Displaying the current state of the board and the current player's move.
+        game.display_board()
+        print(f"\n{current_player.name}, it's your turn.")                
