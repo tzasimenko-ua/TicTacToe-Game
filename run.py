@@ -70,4 +70,9 @@ def main():
     while True:
         # Displaying the current state of the board and the current player's move.
         game.display_board()
-        print(f"\n{current_player.name}, it's your turn.")                
+        print(f"\n{current_player.name}, it's your turn.")
+
+        # Getting the position from the player and checking its validity.
+        position = input("Enter position (1-9): ")
+        while not position.isdigit() or int(position) not in range(1, 10) or game.board[(int(position) - 1) // 3][(int(position) - 1) % 3] != " ":
+            position = input("Invalid position. Enter position (1-9): ")                
