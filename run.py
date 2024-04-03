@@ -47,4 +47,8 @@ def print_game_rules():
     print("2. Players take turns placing their symbol (X or O) on an empty square.")
     print("3. The first player to get three of their symbols in a row (horizontally, vertically, or diagonally) wins.")
     print("4. If all squares are filled without any player achieving a winning combination, the game is a tie.")
-    print("Let's begin!")        
+    print("Let's begin!")
+
+def main():
+    # Main function of the game, controls the main game process.
+    print_game_rules()            
