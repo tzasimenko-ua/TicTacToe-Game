@@ -91,4 +91,10 @@ def main():
         if all(all(cell != " " for cell in row) for row in game.board):
             game.display_board()
             print("It's a tie!")
-            break                    
+            break
+
+        # Switching to the next player.
+        current_player = player2 if current_player == player1 else player1
+
+if __name__ == "__main__":
+    main()                    
