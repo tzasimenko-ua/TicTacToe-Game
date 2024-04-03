@@ -80,4 +80,10 @@ def main():
         # Marking the cell on the board with the current player's symbol.
         row = (int(position) - 1) // 3
         col = (int(position) - 1) % 3
-        game.board[row][col] = current_player.symbol                    
+        game.board[row][col] = current_player.symbol
+
+        # Checking for a winner or a tie.
+        if game.check_winner(current_player):
+            game.display_board()
+            print(f"Congratulations, {current_player.name}! You won with {current_player.symbol}s!")
+            break                    
