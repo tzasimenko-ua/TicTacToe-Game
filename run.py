@@ -96,4 +96,11 @@ def main():
         current_player = player2 if current_player == player1 else player1
 
 if __name__ == "__main__":
-    main()                   
+    main()
+
+ # Asking if the players want to play again.
+    play_again = input("Do you want to play again? (yes/no): ").lower()
+    if play_again == "yes":
+        main()
+    else:
+        print("Thank you for playing!")                       
