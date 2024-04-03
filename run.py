@@ -75,4 +75,9 @@ def main():
         # Getting the position from the player and checking its validity.
         position = input("Enter position (1-9): ")
         while not position.isdigit() or int(position) not in range(1, 10) or game.board[(int(position) - 1) // 3][(int(position) - 1) % 3] != " ":
-            position = input("Invalid position. Enter position (1-9): ")                
+            position = input("Invalid position. Enter position (1-9): ")
+
+        # Marking the cell on the board with the current player's symbol.
+        row = (int(position) - 1) // 3
+        col = (int(position) - 1) % 3
+        game.board[row][col] = current_player.symbol                    
