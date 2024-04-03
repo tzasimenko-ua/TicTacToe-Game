@@ -3,7 +3,7 @@ class TicTacToe:
         # Constructor of the TicTacToe class initializes the board as an empty list of lists.
         self.board = [[" " for _ in range(3)] for _ in range(3)]
 
-def display_board(self):
+    def display_board(self):
         # The display_board method prints the cell positions and the current state of the board.
         print("Here's the board layout:")
         print(" 1 | 2 | 3 ")
@@ -14,9 +14,8 @@ def display_board(self):
         print("\nCurrent board:")
         print("\n".join([" | ".join(row) for row in self.board]))
 
-def check_winner(self, player):
-    # The check_winner method checks for a winner by examining rows, columns, and diagonals.
-
+    def check_winner(self, player):
+        # The check_winner method checks for a winner by examining rows, columns, and diagonals.
         for row in self.board:
             if all(cell == player.symbol for cell in row):
                 return True
@@ -97,4 +96,4 @@ def main():
         current_player = player2 if current_player == player1 else player1
 
 if __name__ == "__main__":
-    main()                    
+    main()                   
