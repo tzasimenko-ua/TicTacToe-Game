@@ -86,4 +86,9 @@ def main():
         if game.check_winner(current_player):
             game.display_board()
             print(f"Congratulations, {current_player.name}! You won with {current_player.symbol}s!")
+            break
+
+        if all(all(cell != " " for cell in row) for row in game.board):
+            game.display_board()
+            print("It's a tie!")
             break                    
