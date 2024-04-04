@@ -1,31 +1,24 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# TicTacToe Game 
 
-Welcome USER_NAME,
+The Tic-Tac-Toe game is a classic competition that challenges your strategic thinking and decision-making skills. As the name suggests, it's a game played on a 3x3 grid where players take turns placing their symbols, typically X or O, in an attempt to create a winning pattern.
+This game offers a fun way to test your logical reasoning and pattern recognition abilities while providing an engaging and enjoyable experience. Whether you're looking to sharpen your skills or simply enjoy a casual game with friends, Tic-Tac-Toe offers a timeless and entertaining diversion.
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+![logo](readme_images/1.png)
 
-## Reminders
+Link for [TicTacToe Game](https://pt3-e82d74dd02fb.herokuapp.com/).
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+## Project Goals
 
-## Creating the Heroku app
+The goal of the Tic-Tac-Toe game is to provide players with an entertaining and stimulating gaming experience. Tic-Tac-Toe is a classic game where two players take turns marking spaces on a 3x3 grid to form a row, column, or diagonal of their symbol, typically X or O.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+The main objectives of the Tic-Tac-Toe game may include:
 
-1. `heroku/python`
-2. `heroku/nodejs`
+1. Entertainment: Offering players a fun and enjoyable way to spend their time. Tic-Tac-Toe provides a simple yet engaging gameplay experience that can be enjoyed by players of all ages.
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+2. Strategic Thinking: Encouraging players to think strategically and plan their moves to outsmart their opponent. The game requires players to anticipate their opponent's moves while planning their own to achieve victory.
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+3. Intellectual Challenge: Stimulating players' logical reasoning and critical thinking skills. Tic-Tac-Toe involves analyzing the game board and making decisions based on patterns and potential outcomes.
 
-Connect your GitHub repository and deploy as normal.
+4. Social Interaction: Fostering social interaction and bonding between players. Whether played with friends, family, or strangers, Tic-Tac-Toe offers an opportunity for players to engage in friendly competition and enjoy each other's company.
 
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
+Overall, the goal of the Tic-Tac-Toe game is to deliver a delightful and intellectually stimulating experience that entertains players while challenging their strategic thinking skills.
