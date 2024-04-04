@@ -66,7 +66,7 @@ Throughout the game, the players' actions and the state of the game board are di
 
 To create a flowchart I used lucid.app.
 
-![diagram](readme_images/way.jpg)
+![diagram](readme_images/way.jpeg)
 
 ### Surface
 
